@@ -15,12 +15,12 @@ collection_name = mydb["collectionNameBasics"]
 print(mydb)
 print(collection_name)
 
-# Name Basis File 
-tsvfile = pd.read_csv("DATAIMDb/name.basics.tsv",delimiter = "\t", na_values="\\N")
-#tsvfile["column_name"].replace('',None, inplace=True)
-tsvfile["knownForTitles"] = tsvfile["knownForTitles"].str.split(',')
-tsvfile["primaryProfession"] = tsvfile["primaryProfession"].str.split(',')
+# # Name Basis File 
+# tsvfile = pd.read_csv("DATAIMDb/name.basics.tsv",delimiter = "\t", na_values="\\N")
+# #tsvfile["column_name"].replace('',None, inplace=True)
+# tsvfile["knownForTitles"] = tsvfile["knownForTitles"].str.split(',')
+# tsvfile["primaryProfession"] = tsvfile["primaryProfession"].str.split(',')
 
-tsvfile = tsvfile.to_dict('records')
-for dict_ in tsvfile:
-    collection_name.insert_one(dict_)
+# tsvfile = tsvfile.to_dict('records')
+# for dict_ in tsvfile:
+#     collection_name.insert_one(dict_)
