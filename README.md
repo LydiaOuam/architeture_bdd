@@ -29,6 +29,18 @@ Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :
 # Installation
 ---------------------------------------------------------------
 Afin de pouvoir assurer le bon focntionnement du code pusher dans ce git il va falloir installer quelques bibliothéques python :
+le script __api_init.py__ utilise la bibliothéque __pycoingecko__ :
+```
+pip install -U pycoingecko
+```
+Source : [Installer pycoingecko](https://pypi.org/project/pycoingecko/)
+le script __tweeter_init.py__ utilise la bibliothéque __tweepy__ :
+```
+pip install tweepy
+Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html)
+
+
+le script __api_init.py__ : 
 
 
 
