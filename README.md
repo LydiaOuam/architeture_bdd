@@ -6,11 +6,31 @@ Deux Sources de données sont utilisé pour ce projet :
 1. Des données de twitter collecté en utilisant l'API tweepy de python
 2. Des données de CoinGecko collecté aussi en utilisant l'API proposé
 -> on a utilisé ces API car on a utilisé python comme language de programmation
-- La description des données Twitter :
-"user_name" :ce champs décrit l'utilisateur qui a publié le tweet : type String
-"date_creation" : ce champs décrit la date dont laquelle l'utilisateur a publié son tweet : type String
-"favorite_count" : 
-"source" : ce champs décrit la source du tweet, (app web, téléphone mobile, ...)
+- _La description des données Twitter :_  
+    - __"user_name"__ :ce champs décrit l'utilisateur qui a publié le tweet : type String
+    - __"date_creation"__ : ce champs décrit la date dont laquelle l'utilisateur a publié son tweet : type String
+    - __"favorite_count"__ : ce champs décrit le nombre de fois que le tweet a été liké et aimé : type Int
+    - __"source"__ : ce champs décrit la source du tweet, (app web, téléphone mobile, ...) : type String
+    - __"text"__ : ce champs contient le text du tweet, peut etre utilisé dans une analyse plus poussé en se basant sur les sentiments, dans le sens s'agit il de _good comments or bad ones_ et comment ça influence les prix des cryptos
+    - __"retwet_counts"__: ce champs décrit le nombre de fois un tweet a été repartagé : type Int
+
+- _La description des données Coingecko :_  
+Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :  
+    __['bitcoin', 'wrapped-bitcoin','staked-ether', 'pax-gold','tether-gold','maker', 'monero','quant-network','bitcoin-cash', 'litecoin']__
+    - __"id"__ : ce champs contient l'id qui est une des crypto ci-dessus, fait de cette maniére pour faciliter les différente recherche: type __String__
+    - __"usd"__ : ce champ représente le prix en __dollars $__, ce champs est mis à jours constamment : type __Int__
+    - __usd_market_cap__ : ce champs représent ... : type __double__
+    - __usd_24h_vol__ : : type __double
+    - __usd_24h_change__ : type : __double__
+    - __last_updated_at__ : ce champs nous informe de la date du dernier update, toutes les infos ci-dessous sont eu a cette date : type __Int__
+    - __prices__ : une liste de liste qui en forme de couple ['date', 'price'] qui contient l'historqie des prix des différentes cryptos
+ 
+---------------------------------------------------------------
+# Installation
+---------------------------------------------------------------
+Afin de pouvoir assurer le bon focntionnement du code pusher dans ce git il va falloir installer quelques bibliothéques python :
+
+
 
 # Collaborateurs : 
     Lydia 
