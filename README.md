@@ -46,6 +46,16 @@ Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html).
 pip install streamlit
 ```
 Source : [Installer streamlit](https://docs.streamlit.io/library/get-started/installation). 
+ 
+-le script __app.py__ utilise la bibliothéque __flask-json__ et __flask-pymongo__:  
+```
+pip install Flask-JSON
+
+pip install Flask-PyMongo
+```
+Source : [Installer Flask](https://pypi.org/project/Flask-JSON/). 
+Source : [Installer pyMongo](https://pypi.org/project/Flask-PyMongo/). 
+
 
 
 ---------------------------------------------------------------
