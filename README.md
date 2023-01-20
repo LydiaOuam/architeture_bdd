@@ -26,23 +26,31 @@ Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :
     - __prices__ : une liste de liste qui en forme de couple ['date', 'price'] qui contient l'historqie des prix des différentes cryptos
  
 ---------------------------------------------------------------
-# Installation
+# Installation Nécessaire
 ---------------------------------------------------------------
-Afin de pouvoir assurer le bon focntionnement du code pusher dans ce git il va falloir installer quelques bibliothéques python :
-le script __api_init.py__ utilise la bibliothéque __pycoingecko__ :
-``` pip install -U pycoingecko ```
-Source : [Installer pycoingecko](https://pypi.org/project/pycoingecko/)
-le script __tweeter_init.py__ utilise la bibliothéque __tweepy__ :
-``` pip install tweepy ```
+Afin de pouvoir assurer le bon focntionnement du code pusher dans ce git il va falloir installer quelques bibliothéques python :  
+-le script __api_init.py__ utilise la bibliothéque __pycoingecko__ :  
+``` 
+pip install -U pycoingecko
+```  
 
-Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html)
+Source : [Installer pycoingecko](https://pypi.org/project/pycoingecko/)   
+-le script __tweeter_init.py__ utilise la bibliothéque __tweepy__ :  
+
+``` 
+pip install tweepy
+```  
+Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html). 
+-le script __streaming.py__ utilise la bibliothéque __streamlit__:  
+```
+pip install streamlit
+```
+Source : [Installer streamlit](https://docs.streamlit.io/library/get-started/installation). 
 
 
-le script __api_init.py__ : 
-
-
-
+---------------------------------------------------------------
 # Collaborateurs : 
+---------------------------------------------------------------
     Lydia 
     Kafia 
     Boutaina 
