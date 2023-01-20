@@ -47,23 +47,32 @@ Les indices qu'on va suivre:
 #data = cg.get_coin_history_by_id(id='bitcoin',date='10-11-2020', localization='false')
 
 # Cette requete va nous servire surtt pour les update et le real time
-
-listCrypto = ['bitcoin', 'wrapped-bitcoin','staked-ether', 'pax-gold','tether-gold','maker', 'monero', 'quant-network','bitcoin-cash', 'litecoin']
+# """'bitcoin', 'wrapped-bitcoin','staked-ether', 'pax-gold','tether-gold','maker', 'monero',,  'quant-network','bitcoin-cash', 'litecoin'"""
+listCrypto = ['bitcoin', 'wrapped-bitcoin','staked-ether', 'pax-gold','tether-gold','maker', 'monero']
 data = {}
 for crypto in listCrypto:
     data = cg.get_price(ids=crypto, vs_currencies='usd', include_market_cap='true', include_24hr_vol='true', include_24hr_change='true', include_last_updated_at='true')
     data['crypto_data'] = data[crypto]
-    data['crypto_data']["id_crypto"] = crypto
+    data['_id'] = crypto
+    data['usd'] = data['crypto_data']['usd'] 
+    data['usd_market_cap'] =  data['crypto_data']['usd_market_cap'] 
+    data['usd_24h_vol'] = data['crypto_data']['usd_24h_vol']
+    data['usd_24h_change'] = data['crypto_data']['usd_24h_change']
+    data['last_updated_at'] = data['crypto_data']['last_updated_at']
+    # data['crypto_data']["id_crypto"] = crypto
     del(data[crypto])
+    del(data['crypto_data'])
+
     # data.append(cg.get_coin_history_by_id(id=crypto, localization='false', date = '30-04-2021',vs_currency='usd'))
-    historical__ = cg.get_coin_market_chart_by_id(id=crypto,vs_currency='usd',days='40')
+    historical__ = cg.get_coin_market_chart_by_id(id=crypto,vs_currency='usd',days='47')
     for price in historical__['prices']:
         a = datetime.fromtimestamp(price[0]/1000)
         price[0] = a
     data["prices"]= historical__['prices']
+    print(data)
     collection_name.insert_one(data)
     print(crypto)
-
+    
     # with open(crypto+".json", "w") as fp:
     #     json.dump(data, fp, default = str, indent  = 4)
     # break

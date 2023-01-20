@@ -40,11 +40,11 @@ auth.set_access_token("1588115651989848066-tN1jcTK3lcHFEjVJ99VKOc9zITndRv", "Ek5
 api = tweepy.API(auth)
 
 MyCurrencies_list = ['crypto','Bitcoin','Wrapped Bitcoin','PAX Gold','Tether Gold', 'Lido Staked Ether', 'Maker', 'Monero', 'Quant','Bitcoin','Cash', 'Litecoin' ]
-date_list = ["2023-01-06", "2023-01-07","2023-01-08", "2023-01-09","2023-01-10", "2023-01-11","2023-01-12"]
+date_list = ["2023-01-16", "2023-01-14","2023-01-15", "2023-01-17","2023-01-18"]
 for currency in MyCurrencies_list:
     for mydate in date_list:
         q= str(currency)+ " filter:retweets"
-        print(q)
+        # print(q)
         #The number of tweets we want to retrieved from the user
         tweets = api.search_tweets(q= str(currency)+ " filter:retweets",count=100,until = mydate)
 
@@ -59,6 +59,7 @@ for currency in MyCurrencies_list:
             data["source"] = tweet.source
             data["text"] = tweet.text
             data["retwet_count"] = tweet.retweet_count
+            # print(tweet.text)
             # insert in tweeter
             collection_name.insert_one(data)
 
