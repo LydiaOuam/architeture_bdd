@@ -19,9 +19,9 @@ Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :
     __['bitcoin', 'wrapped-bitcoin','staked-ether', 'pax-gold','tether-gold','maker', 'monero','quant-network','bitcoin-cash', 'litecoin']__
     - __"id"__ : ce champs contient l'id qui est une des crypto ci-dessus, fait de cette maniére pour faciliter les différente recherche: type __String__
     - __"usd"__ : ce champ représente le prix en __dollars $__, ce champs est mis à jours constamment : type __Int__
-    - __usd_market_cap__ : ce champs représent ... : type __double__
-    - __usd_24h_vol__ : : type __double
-    - __usd_24h_change__ : type : __double__
+    - __usd_market_cap__ : ce champs représent plus ou moins la polpularité d'une crypto, il permet de faire des analyses pour investissement : type __double__
+    - __usd_24h_vol__ :ce champs présente la masse de transaction sur une crypto, permet également de faire des analyses techniques : type __double
+    - __usd_24h_change__ : le changement des prix durant les derniéres 24 heures type : __double__
     - __last_updated_at__ : ce champs nous informe de la date du dernier update, toutes les infos ci-dessous sont eu a cette date : type __Int__
     - __prices__ : une liste de liste qui en forme de couple ['date', 'price'] qui contient l'historqie des prix des différentes cryptos
  
