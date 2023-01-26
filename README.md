@@ -1,4 +1,12 @@
-# Ce projet est réalisé dans le cadre du TP noté du module Architecture BDD
+# Projet Architecture BDD
+---------------------------------------------------------------
+# La description du projet
+---------------------------------------------------------------
+Ce projet est réalisé dans le cadre du TP noté du module Architecture BDD.
+Le but est de pouvoir manipuler des bases de données non relationnelle, d'utiliser des outils comme MongoDB, envoyer des requétes à la base de données en utilisant les aggregates. Pouvoir aussi commencer _from scratch_, collecter, nettoyer, traiter et analyser les données.
+Faire une simple interface qui permet l'ajout, la supression et l'update des données d'une maniére simple et controlé, pour ne pas permettre de mettre des données incohérentes. Et cela en utilisant des bibliothéques comme flask.
+Mettre en place une interface qui permet d'afficher des données live en utilisant des bibliothéque comme stremalit, et enfin faire des petites visualisations en utilisant des bibliothéques comme matplotlib.
+
 ---------------------------------------------------------------
 # La Data
 ---------------------------------------------------------------
