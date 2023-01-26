@@ -31,7 +31,7 @@ Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :
     - __usd_24h_vol__ :ce champs présente la masse de transaction sur une crypto, permet également de faire des analyses techniques : type __double
     - __usd_24h_change__ : le changement des prix durant les derniéres 24 heures type : __double__
     - __last_updated_at__ : ce champs nous informe de la date du dernier update, toutes les infos ci-dessous sont eu a cette date : type __Int__
-    - __prices__ : une liste de liste qui en forme de couple ['date', 'price'] qui contient l'historqie des prix des différentes cryptos
+    - __prices__ : une liste de liste qui en forme de couple ['date' : __timestamp__, 'price' : __double__] qui contient l'historqie des prix des différentes cryptos
  
 ---------------------------------------------------------------
 # Installation Nécessaire
