@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %} Supprimer element {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<h1>Formulaire de suppression du document dans la base</h1>
+
+  <div class="row">
+    <div class="col-md-12">
+      <form action="/delete_element" method="post">
+        <!--retourner sur la page d'accueil quand le documeent est supprimé avec succès-->
+        <h1> Delete an element </h1>
+
+        <fieldset>
+
+          <legend><span class="number">1</span> Enter document ID</legend>
+
+          <label for="id_tweet">Id of Tweet:</label>
+          <input type="text" id="id_tweet" name="id_tweet" placeholder="Saisie L'id">
+
+
+        </fieldset>
+        
+        <button type="submit">Supprimer</button>
+
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <form action="/delete_element" method="post">
+        <!--retourner sur la page d'accueil quand le documeent est supprimé avec succès-->
+        <h1> Delete an element </h1>
+
+        <fieldset>
+
+          <legend><span class="number">1</span> Enter Bitcoin Name</legend>
+
+          <label for="bitcoin_name">Bitcoin Name:</label>
+          <input type="text" id="bitcoin_name" name="bitcoin_name" placeholder="Saisie Le nom du bitcoin">
+          
+
+        </fieldset>
+        
+        <button type="submit">Supprimer</button>
+
+      </form>
+    </div>
+  </div>
+
+  {% endblock content %}

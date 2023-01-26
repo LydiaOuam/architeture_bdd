@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %} Modifier element bitcoin {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+
+<h1>Formulaire de la mise-a-jour du document dans la base</h1>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <form action="/update_element_bitcoin" method="post" novalidate>
+      <!--retourner sur la page d'accueil quand le documeent est mis a jour avec succès-->
+      <h1> Update an element bitcoin</h1>
+      
+      <fieldset>
+        
+        <legend><span class="number">1</span> Enter document bitcoin</legend>
+
+        <label for="bitcoin_name">Your Bitcoin's name:</label>
+        <input type="text" id="bitcoin_name" name="bitcoin_name">
+
+        <label for="usd">USD:</label> 
+        <input type="text" id="usd" name="usd">
+
+        <label for="usd_market_cap">USD Market Cap:</label> 
+        <input type="text" id="usd_market_cap" name="usd_market_cap">
+        
+        <label for="usd_24h_vol">USD 24h Vol:</label> 
+        <input type="text" id="usd_24h_vol" name="usd_24h_vol">
+
+        <label for="usd_24h_change">USD 24h Change:</label> 
+        <input type="text" id="usd_24h_change" name="usd_24h_change">
+
+      </fieldset>
+
+      
+      <button type="submit">Modifier</button>
+      
+      
+      
+    </form>
+  </div>
+</div>
+
+
+{% endblock content %}

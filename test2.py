@@ -78,11 +78,3 @@ for j in range(10):
                   color_continuous_scale='burgyl',
                  )
     st.write(fig2)
-
-
-<<<<<<< HEAD
-## cap_market and volume market
-=======
-
->>>>>>> 119954c69bcd96aab2d255a33090a7087ea8fa41
-

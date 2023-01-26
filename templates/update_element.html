@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %} Modifier element {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<h1>Formulaire de la mise-a-jour du document dans la base</h1>
+
+<div class="row">
+  <div class="col-md-12">
+    <form action="/update_element" method="post" novalidate>
+      <!--retourner sur la page d'accueil quand le documeent est mis a jour avec succès-->
+      <h1> Update an element </h1>
+
+      <fieldset>
+
+        <legend><span class="number">1</span> Enter document</legend>
+
+        <label for="id_tweet">Id of Tweet:</label>
+        <input type="text" id="id_tweet" name="id_tweet" placeholder="Saisie L'id" required>
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="user_name" placeholder="Saisie le username">
+
+        <label for="number_of_like">Number of Likes:</label> 
+        <input type="text" id="number_of_like" name="number_of_like" placeholder="Saisie le nombre de Like">
+
+
+        <label for="number_of_retweet">Number of Retweet:</label> 
+        <input type="text" id="number_of_retweet" name="number_of_retweet" required={1-9} placeholder="Saisie le nombre de Retweet">
+        
+        <label for="source_of_tweet">Source of Tweet:</label>
+        <select id="source_of_tweet" name="source_of_tweet">
+          <optgroup label="source_of_tweet">
+            <option value="twitter_web_app">Twitter Web App</option>
+            <option value="twitter_for_iPhone">Twitter for iPhone</option>
+            <option value="tweepsmap">Tweepsmap</option>
+            <option value="twitter_for_android">Twitter for Android</option>
+            <option value="unjeton">UnJeton</option>
+            <option value="camtsuku">Camtsuku</option>
+            <option value="crypto_frog">Crypto Frog</option>
+            <option value="cryptoquantbot">CryptoQuantBot</option>
+            <option value="abnormal_crypto_app">abnormal_crypto_app</option>
+            <option value="twe_ether">twe_ether</option>
+            <option value="cryptobotprices">cryptobotprices</option>
+            <option value="socialoomph">SocialOomph</option>
+            <option value="cryptoredart">cryptoredart</option>
+            <option value="sakatakeisen">sakatakeisen2</option>
+            <option value="agorapulse_app">Agorapulse app</option>
+          </optgroup>
+
+
+          <label for="tweet">Tweet:</label>
+          <textarea id="tweet" name="tweet" placeholder="Saisie le contenue du tweet"></textarea>
+        </fieldset>
+
+        <button type="submit">Modifier</button>
+
+        
+        
+      </form>
+    </div>
+  </div>
+
+{% endblock content %}
