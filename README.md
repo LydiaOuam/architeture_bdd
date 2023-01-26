@@ -3,11 +3,11 @@
 # La description du projet
 ---------------------------------------------------------------
 Ce projet est réalisé dans le cadre du TP noté du module Architecture BDD.
-Le but est de pouvoir manipuler des bases de données non relationnelle, d'utiliser des outils comme MongoDB, envoyer des requétes à la base de données en utilisant les aggregates. Pouvoir aussi commencer _from scratch_, collecter, nettoyer, traiter et analyser les données.
-Faire une simple interface qui permet l'ajout, la supression et l'update des données d'une maniére simple et controlé, pour ne pas permettre de mettre des données incohérentes. Et cela en utilisant des bibliothéques comme flask.
-Mettre en place une interface qui permet d'afficher des données live en utilisant des bibliothéque comme stremalit, et enfin faire des petites visualisations en utilisant des bibliothéques comme matplotlib.
+L'essence même de ce projet est de pouvoir manipuler des bases de données non relationnelle (MongoDB), envoyer des requêtes à l'aide desaggregates. De même, pouvoir aussi appliquer un CRUD,  commencer _from scratch_, collecter, nettoyer, traiter et analyser les données.
+De plus, A l'aide du framework Flask, faire un CRUD pour notre base de donnée.
+De même avec streamlit, Mettre en place une interface qui permet d'afficher des données live en utilisant des bibliothéque comme stremalit, et enfin faire des petites visualisations en utilisant des bibliothéques comme matplotlib.
 
-Notre But est de collecter des données sur Twitter et CoinGecko et comparer la relation qui peut etre entre ces deux donneés, en essayant des répondre à cette question : est ce que les tweets influence le prix des cryptos.  
+Notre But est de collecter des données sur Twitter et CoinGecko et et montrer la correlation entre les données, repondant à la problematique : est ce que les tweets influence le prix des cryptos ?
 
 ---------------------------------------------------------------
 # La Data
