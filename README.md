@@ -7,6 +7,8 @@ Le but est de pouvoir manipuler des bases de données non relationnelle, d'utili
 Faire une simple interface qui permet l'ajout, la supression et l'update des données d'une maniére simple et controlé, pour ne pas permettre de mettre des données incohérentes. Et cela en utilisant des bibliothéques comme flask.
 Mettre en place une interface qui permet d'afficher des données live en utilisant des bibliothéque comme stremalit, et enfin faire des petites visualisations en utilisant des bibliothéques comme matplotlib.
 
+Notre But est de collecter des données sur Twitter et CoinGecko et comparer la relation qui peut etre entre ces deux donneés, en essayant des répondre à cette question : est ce que les tweets influence le prix des cryptos.  
+
 ---------------------------------------------------------------
 # La Data
 ---------------------------------------------------------------
@@ -74,8 +76,10 @@ Source : [Installer MatPlotLib](https://matplotlib.org/stable/users/installing/i
 # Visualisations
 ---------------------------------------------------------------
 
-
-
+---------------------------------------------------------------
+# Perspectives
+---------------------------------------------------------------
+On peut faire une analyse des émotions sur les tweets et cela en les séparant en tweets négatifs et positifs et puis par la suite faire la meme analyse.  
 
 ---------------------------------------------------------------
 # Collaborateurs : 
