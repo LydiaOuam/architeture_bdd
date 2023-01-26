@@ -80,6 +80,7 @@ Source : [Installer MatPlotLib](https://matplotlib.org/stable/users/installing/i
 # Perspectives
 ---------------------------------------------------------------
 On peut faire une analyse des émotions sur les tweets et cela en les séparant en tweets négatifs et positifs et puis par la suite faire la meme analyse.  
+Aussi utilisé les données comme le market cap et market vol pour suivre la circulation des cryptos et pouvoir voir l'influence des tweets sur les décisions prises par les _traders_ à savoir l'achat ou la vente.  
 
 ---------------------------------------------------------------
 # Collaborateurs : 
