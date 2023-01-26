@@ -75,7 +75,18 @@ Source : [Installer MatPlotLib](https://matplotlib.org/stable/users/installing/i
 ---------------------------------------------------------------
 # Visualisations
 ---------------------------------------------------------------
-![Alt text](Capture d’écran 2023-01-20 à 12.08.36.png"Optional title")
+Sur ce graphe on peut voir en orange les prix des bitcoins et en bleu le nombre de tweets, on peut remarquer que l'augmentation des prix des bitcoins suit la hausse des nombre des tweets.
+
+Faut aussi savoir que les prix des cryptos sont influencé par plusieurs autre éléments comme : l'offre et la demande, incertitudes politiques et économiques, ...
+
+<img width="900" alt="Capture d’écran 2023-01-20 à 12 08 36" src="https://user-images.githubusercontent.com/84903904/214848632-d64eae7d-e3ac-4a26-9d20-46c9c74798e2.png">
+
+
+Cette figure montre un _treemap_ composé de trois couches la premiére représente le nom de la crypto, la deuxiéme est l'heure et la troisiéme c'est le prix, les informations qu'on voit sur le _treemap_ sont les données des derniéres 24H.
+
+<img width="835" alt="Capture d’écran 2023-01-26 à 14 56 34" src="https://user-images.githubusercontent.com/84903904/214854013-728054cf-a773-42a6-b906-1278ab07d4fe.png">
+
+
 ---------------------------------------------------------------
 # Perspectives
 ---------------------------------------------------------------
