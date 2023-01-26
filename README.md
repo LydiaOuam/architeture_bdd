@@ -38,6 +38,8 @@ Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :
 ---------------------------------------------------------------
 # Installation Nécessaire
 ---------------------------------------------------------------
+Un fichier requirements.txt est dans le git pour toutes les installations.
+
 Afin de pouvoir assurer le bon focntionnement du code pusher dans ce git il va falloir installer quelques bibliothéques python :  
 -le script __api_init.py__ utilise la bibliothéque __pycoingecko__  qui permet d'utiliser l'API CoinGecko:  
 ``` 
