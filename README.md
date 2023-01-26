@@ -39,26 +39,26 @@ Pour commencer on a choisit 10 crypto pour les suivre en près s'agit :
 # Installation Nécessaire
 ---------------------------------------------------------------
 Afin de pouvoir assurer le bon focntionnement du code pusher dans ce git il va falloir installer quelques bibliothéques python :  
--le script __api_init.py__ utilise la bibliothéque __pycoingecko__ :  
+-le script __api_init.py__ utilise la bibliothéque __pycoingecko__  qui permet d'utiliser l'API CoinGecko:  
 ``` 
 pip install -U pycoingecko
 ```  
 
 Source : [Installer pycoingecko](https://pypi.org/project/pycoingecko/)   
--le script __tweeter_init.py__ utilise la bibliothéque __tweepy__ :  
+-le script __tweeter_init.py__ utilise la bibliothéque __tweepy__ qui permet d'utiliser l'API de Twitter :  
 
 ``` 
 pip install tweepy. 
 ```  
 Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html)  
 
--le script __streaming.py__ utilise la bibliothéque __streamlit__:  
+-le script __streaming.py__ utilise la bibliothéque __streamlit__ qui permet de faire une visualisation live:  
 ```
 pip install streamlit
 ```
 Source : [Installer streamlit](https://docs.streamlit.io/library/get-started/installation). 
  
--le script __app.py__ utilise la bibliothéque __flask-json__ et __flask-pymongo__:  
+-le script __app.py__ utilise la bibliothéque __flask-json__ et __flask-pymongo__ pour manipuler des json files sur flask et établir la connection flask mongodb:    
 ```
 pip install Flask-JSON
 
@@ -67,7 +67,7 @@ pip install Flask-PyMongo
 Source : [Installer Flask](https://pypi.org/project/Flask-JSON/).   
 Source : [Installer pyMongo](https://pypi.org/project/Flask-PyMongo/).
 
--le script __bitcoinplot__ utilise la bibliothéque __matplotlib__ :    
+-le script __bitcoinplot__ utilise la bibliothéque __matplotlib__ pour visualiser les données :      
 ```
 python -m pip install matplotlib
 ```
