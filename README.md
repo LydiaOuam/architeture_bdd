@@ -48,9 +48,10 @@ Source : [Installer pycoingecko](https://pypi.org/project/pycoingecko/)
 -le script __tweeter_init.py__ utilise la bibliothéque __tweepy__ :  
 
 ``` 
-pip install tweepy
+pip install tweepy. 
 ```  
-Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html). 
+Source : [Installer tweepy](https://docs.tweepy.org/en/stable/install.html)  
+
 -le script __streaming.py__ utilise la bibliothéque __streamlit__:  
 ```
 pip install streamlit
@@ -66,7 +67,7 @@ pip install Flask-PyMongo
 Source : [Installer Flask](https://pypi.org/project/Flask-JSON/).   
 Source : [Installer pyMongo](https://pypi.org/project/Flask-PyMongo/).
 
--le script __bitcoinplot__ utilise la bibliothéque __matplotlib__ :  
+-le script __bitcoinplot__ utilise la bibliothéque __matplotlib__ :    
 ```
 python -m pip install matplotlib
 ```
