@@ -70,7 +70,9 @@ python -m pip install matplotlib
 ```
 Source : [Installer MatPlotLib](https://matplotlib.org/stable/users/installing/index.html). 
 
-
+---------------------------------------------------------------
+# Visualisations
+---------------------------------------------------------------
 
 
 
