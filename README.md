@@ -81,6 +81,11 @@ Faut aussi savoir que les prix des cryptos sont influencé par plusieurs autre �
 
 <img width="900" alt="Capture d’écran 2023-01-20 à 12 08 36" src="https://user-images.githubusercontent.com/84903904/214848632-d64eae7d-e3ac-4a26-9d20-46c9c74798e2.png">
 
+Cette Image on peut voir l'évolution de prix de 4 différentes cryptos. 
+
+<img width="900" alt="Capture d’écran 2023-01-20 à 12 08 36" src="https://user-images.githubusercontent.com/84903904/214862466-56445bb0-713f-4b3a-90d9-d476e962db6d.png">
+
+
 
 Cette figure montre un _treemap_ composé de trois couches la premiére représente le nom de la crypto, la deuxiéme est l'heure et la troisiéme c'est le prix, les informations qu'on voit sur le _treemap_ sont les données des derniéres 24H.
 
